@@ -3,15 +3,17 @@ import { blog_data } from '../../assets/assets'
 import BlogTableItem from '../../components/admin/BlogTableItem'
 import { useAppContext } from '../../context/AppContext'
 import toast from 'react-hot-toast'
+import Loader from '../../components/Loader'
 
 const ListBlog = () => {
-
+     const [loading, setLoading] = useState(true)
     const [blogs,setBlogs]=useState([])
     const {axios}=useAppContext()
 
 
     const fetchBlogs=async()=>{
         try {
+            setLoading(true) 
             const {data}=await axios.get('/api/admin/blogs')
             if(data.success){
                 setBlogs(data.blogs)
@@ -21,12 +23,16 @@ const ListBlog = () => {
             }
         } catch (error) {
              toast.error(error.message)
-        }
+        }finally {
+      setLoading(false)  // stop loading
+    }
     }
 
     useEffect(()=>{
         fetchBlogs()
     },[])
+
+     if (loading) return <Loader /> 
 
   return (
     <div className='flex-1 pt-5 px-5 sm:pt-12 sm:pl-16 bg-blue-50/50'>
