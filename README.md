@@ -84,8 +84,34 @@ http://localhost:5173
 
 ## screenshots
 
+# Home
+
+<img width="1272" height="1059" alt="image" src="https://github.com/user-attachments/assets/b1a94c5a-7994-4f58-9fd4-df40e86fce40" />
+
+# Blog content
+
+<img width="1126" height="1936" alt="image" src="https://github.com/user-attachments/assets/1db21b60-043b-4edd-b8e4-92031a68b466" />
 
 
+# Admin Login
+
+<img width="575" height="463" alt="image" src="https://github.com/user-attachments/assets/67c64670-db87-4363-8faf-fc0d62ba299c" />
+
+# Dashboard
+
+<img width="1338" height="564" alt="image" src="https://github.com/user-attachments/assets/063838dc-d3f2-47b7-84e6-b426e1dd19de" />
+
+# Add Blogs
+
+<img width="780" height="587" alt="image" src="https://github.com/user-attachments/assets/5db517d0-ad17-4363-8735-0525041af14d" />
+
+# Blog lists
+
+<img width="979" height="329" alt="image" src="https://github.com/user-attachments/assets/cb6c50ef-3631-4df6-a6b6-69378dbe5262" />
+
+# comments
+
+<img width="966" height="306" alt="image" src="https://github.com/user-attachments/assets/aa843432-ad22-4273-bcc5-1bae4e3b3eb6" />
 
 🤝 Contributing
 
