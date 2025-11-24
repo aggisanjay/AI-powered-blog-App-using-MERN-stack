@@ -34,3 +34,63 @@ Built using **Node.js, Express, MongoDB, ImageKit, and Google Gemini AI**.
 - **Image Storage & Optimization:** ImageKit  
 - **Auth:** JWT (JSON Web Tokens)  
 - **Others:** CORS, Multer, FS  
+
+
+# 🛠 Server Setup
+
+📦 Install dependencies
+
+cd server
+
+npm install
+
+# ⚙️ Environment Variables
+
+Create a .env file in /server:
+
+PORT=5000
+
+MONGO_URI=your_mongodb_url
+
+JWT_SECRET=your_secret_key
+
+IMAGEKIT_PUBLIC=your_key
+
+IMAGEKIT_PRIVATE=your_key
+
+IMAGEKIT_URL_ENDPOINT=your_endpoint
+
+GOOGLE_API_KEY=your_key
+
+Start backend
+
+npm run dev
+
+Backend: http://localhost:5000
+
+# 🖥️ Client Setup
+
+📦 Install dependencies
+
+cd client
+
+npm install
+
+🚀 Start development
+
+npm run dev
+
+http://localhost:5173
+
+## screenshots
+
+
+
+
+🤝 Contributing
+
+Pull requests are welcome. For major changes, open an issue first to discuss what you want to update.
+
+📄 License
+
+This project is licensed under the ISC License.
